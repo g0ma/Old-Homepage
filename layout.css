@@ -1,0 +1,196 @@
+/*old version*/
+
+@import
+	url(https://fonts.googleapis.com/css?family=Montserrat+Alternates);
+
+body {
+	background-color: #B3E5FC;
+	color: #FFFAFA;
+	font-family: 'Montserrat Alternates', sans-serif;
+	margin: 0;
+}
+
+a {
+	text-decoration: none;
+}
+
+ul {
+	list-style-type: none;
+	padding: 0;
+}
+
+.top:after, .top li:after, .wraplist:after {
+	content: "";
+	display: block;
+	clear: both;
+}
+/*clearfix*/
+.top {
+	background: #fcc800;
+	border-bottom: 3px solid #e9bc00;
+	height: 35px;
+}
+
+.top p {
+	font-size: 25px;
+	float: left;
+	text-indent: 5px;
+	margin: 0;
+}
+
+.top p:hover {
+	cursor: not-allowed;
+}
+
+.top ul {
+	margin: 0;
+	position: absolute;
+	right: 0;
+}
+
+.top ul li {
+	float: left;
+	font-size: 15px;
+	height: 35px;
+	line-height: 35px;
+	padding: 0 3px;
+	transition: 0.3s;
+}
+
+.top li:hover {
+	transform: translate(0, 3px);
+}
+
+.top a {
+	color: #FFFAFA;
+	cursor: default;
+	display: block;
+	height: 38px;
+}
+
+li.twr {
+	background: #55acee;
+	border-bottom: 3px solid #0889c4;
+}
+
+li.htn {
+	background: #ff8a2b;
+	border-bottom: 3px solid #ea5506;
+}
+
+li.tbr {
+	background: #32506d;
+	border-bottom: 3px solid #000080;
+}
+
+/*-------------------------------------*/
+.wrap_main {
+	margin: 0 auto 250px auto;
+	width: 50%;
+}
+
+.wrap_main p {
+	font-size: 15vw;
+	margin: 0;
+	text-align: center;
+	text-shadow: 0 3px 0 #4682B4;
+}
+
+.wraplist {
+	max-width: 400px;
+	margin: 0 auto;
+}
+
+.wraplist ul {
+	float: left;
+	margin-left: 15%;
+}
+
+.wraplist strong {
+	color: #00afcc;
+}
+
+.wraplist ul li {
+	margin: 5px 0 5px 0;
+	text-indent: 20px;
+	background-repeat: no-repeat;
+	background-size: 18px auto;
+	background-position: 0 50%;
+}
+
+.fav {
+	background-image: url(img/star.svg);
+}
+
+.game {
+	background-image: url(img/game.svg);
+}
+
+.song {
+	background-image: url(img/note.svg);
+}
+
+.pc {
+	background-image: url(img/build.svg);
+}
+
+.lean {
+	background-image: url(img/school.svg);
+}
+
+.proc {
+	background-image: url(img/code.svg);
+}
+
+.penguin {
+	background-image: url(img/linux.png);
+}
+
+.web {
+	background-image: url(img/http.svg);
+}
+
+footer {
+	background: url(img/footer.svg) repeat-x;
+	bottom: 0;
+	height: 320px;
+	position: fixed;
+	width: 100%;
+}
+
+@media screen and (max-width: 768px) {
+	.top {
+		height: 30px;
+	}
+	.top p {
+		font-size: 22px;
+		text-indent: 2px;
+	}
+	.top ul li {
+		font-size: 10px;
+		height: 30px;
+		line-height: 30px;
+	}
+	.top a {
+		height: 28px;
+	}
+	.wraplist ul {
+		float: none;
+		margin: 20px 0;
+	}
+	footer {
+		height: 250px;
+	}
+}
+
+/*-----------------ninja ad--------------------*/
+.tdftad {
+	bottom: 0px;
+	color: rgba(255, 255, 255, 0.8);
+	position: fixed;
+	width: 100%;
+}
+
+.tdftad a {
+	color: rgba(255, 255, 255, 0.8);
+}
